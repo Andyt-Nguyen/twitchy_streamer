@@ -1,0 +1,29 @@
+{
+  "streams": [
+    {
+      "title": "Hello",
+      "description": "there",
+      "id": 1
+    },
+    {
+      "title": "The walking dead",
+      "description": "A lot of dead people",
+      "id": 2
+    },
+    {
+      "title": "The walking dead",
+      "description": "A lot of dead people",
+      "id": 3
+    },
+    {
+      "title": "Dead people",
+      "description": "the walking dead!",
+      "id": 4
+    },
+    {
+      "title": "Hello Friends",
+      "description": "worlds",
+      "id": 7
+    }
+  ]
+}

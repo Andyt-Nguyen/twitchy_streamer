@@ -1,16 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import GoogleAuth from '../GoogleAuth'
 
 export default () => (
     <nav className={"ui secondary pointing menu"}>
+
         <Link to="/" className={"item"}>
             Streamer
         </Link>
 
-        <Link to="/" className={"item"}>
-            <div className={"right menu"}>
-                All Streams
-            </div>
-        </Link>
+        <div className={"right menu"}>
+            <Link to="/" className={"item"}>
+                    All Streams
+            </Link>
+            <GoogleAuth />
+        </div>
+
+
+
     </nav>
 )
